@@ -59,3 +59,4 @@ github "xquartz",     "1.1.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+github "wget",        "1.0.0" # via homebrew
