@@ -26,4 +26,15 @@ class people::kitatuba {
     ]:
   }
 
+  # dotfile setting
+  $home     = "/Users/${::boxen_user}"
+  $dotfiles = "${home}/dotfiles"
+  repository { $dotfiles:
+    source  => 'mediba-Kitada/dotfiles'
+  }
+  exec { "setup-dotfiles":
+    cwd => $dotfiles,
+    command => 'sh install.sh'
+  }
+
 }
