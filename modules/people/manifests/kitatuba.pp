@@ -3,6 +3,12 @@ class people::kitatuba {
   include wget
   include atom
   include netbeans::php
+  include vagrant
+  include virtualbox
+  include osx::global::tap_to_click
+  include osx::dock::autohide
+  include osx::dock::clear_dock
+  include osx::keyboard::capslock_to_control
 
   package {
     [

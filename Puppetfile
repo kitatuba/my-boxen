@@ -61,4 +61,7 @@ github "xquartz",     "1.1.1"
 # https://github.com/boxen.
 github "wget",        "1.0.0" # via homebrew
 github "atom",        "1.0.0"
-github "netbeans",     "1.0.0"
+github "netbeans",    "1.0.0"
+github "vagrant"
+github "virtualbox"
+github "osx"

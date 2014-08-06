@@ -64,6 +64,11 @@ GITHUBTARBALL
     openssl (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-osx
+  specs:
+    osx (2.7.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-phantomjs
   specs:
     phantomjs (2.3.0)
@@ -87,6 +92,16 @@ GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vagrant
+  specs:
+    vagrant (3.1.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-virtualbox
+  specs:
+    virtualbox (1.0.9)
 
 GITHUBTARBALL
   remote: boxen/puppet-wget
@@ -129,12 +144,15 @@ DEPENDENCIES
   nginx (= 1.4.3)
   nodejs (= 3.7.0)
   openssl (= 1.0.0)
+  osx (>= 0)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
   repository (= 2.3.0)
   ruby (= 7.3.0)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
+  vagrant (>= 0)
+  virtualbox (>= 0)
   wget (= 1.0.0)
   xquartz (= 1.1.1)
 
