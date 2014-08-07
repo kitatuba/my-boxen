@@ -5,6 +5,7 @@ class people::kitatuba {
   include netbeans::php
   include vagrant
   include virtualbox
+  include hipchat
   include osx::global::tap_to_click
   include osx::dock::autohide
   include osx::dock::clear_dock
