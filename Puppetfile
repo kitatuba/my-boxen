@@ -60,3 +60,10 @@ github "xquartz",     "1.1.1"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 github "wget",        "1.0.0" # via homebrew
+github "atom",        "1.0.0"
+github "netbeans",    "1.0.0"
+github "vagrant"
+github "virtualbox"
+github "osx"
+github "hipchat"
+github "dropbox"
