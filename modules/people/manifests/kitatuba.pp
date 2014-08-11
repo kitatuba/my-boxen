@@ -6,10 +6,12 @@ class people::kitatuba {
   include vagrant
   include virtualbox
   include hipchat
+  include dropbox
   include osx::global::tap_to_click
   include osx::dock::autohide
   include osx::dock::clear_dock
   include osx::keyboard::capslock_to_control
+  include osx::global::enable_standard_function_keys
 
   package {
     [
@@ -31,6 +33,13 @@ class people::kitatuba {
       'samba',
       'node'
     ]:
+  }
+
+  # local util
+  package {
+    'GoogleJapaneseInput':
+        source => "http://dl.google.com/japanese-ime/latest/GoogleJapaneseInput.dmg",
+        provider => pkgdmg;
   }
 
   # dotfile setting
